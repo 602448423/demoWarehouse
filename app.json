@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/classify/classify",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/latest/latest",
+    "pages/hotest/hotest"
+    
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "demo",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+    },
+    "tabBar": {
+      "color": "#000000",
+      "selectedColor": "#567f04",
+      "backgroundColor": "#fff",
+      "borderStyle": "white",
+      "list": [
+        {
+          "pagePath": "pages/latest/latest",
+          "text": "demo最新",
+          "iconPath": "images/latest.png",
+          "selectedIconPath": "images/latest_on.png"
+        },
+        {
+          "pagePath":"pages/hotest/hotest",
+          "text":"demo热门",
+          "iconPath": "images/hotest.png",
+          "selectedIconPath": "images/hotest_on.png"
+        },
+        {
+          "pagePath": "pages/classify/classify",
+          "text": "demo分类",
+          "iconPath": "images/classify.png",
+          "selectedIconPath": "images/classify_on.png"
+        }
+      ]
+    }
+}
